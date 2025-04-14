@@ -18,7 +18,7 @@ function Header() {
 
   const mobileSections = [
     { href: "#home", label: "Главная" },
-    { href: "#about", label: "Обсудить проэкт" },
+    { href: "#services", label: "Обсудить проэкт" },
     ...sections.slice(1),
   ];
 
