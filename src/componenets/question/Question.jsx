@@ -28,10 +28,10 @@ const Question = () => {
   return (
     <div id="price" className='max-w-[1260px] mx-auto px-4 '>
       <div className="text-center mb-16">
-        <p data-aos="fade-down" className="text-sm md:text-2xl text-[#00B2B2] font-medium uppercase tracking-wide">
+        <p data-aos="fade-down" className="text-2xl md:text-4xl text-[#00B2B2] font-medium uppercase tracking-wide">
         СТОИМОСТЬ РЕМОНТА
         </p>
-        <h2 data-aos="fade-up" className="text-2xl md:text-5xl font-extrabold mt-2">
+        <h2 data-aos="fade-up" className="text-4xl md:text-6xl font-extrabold mt-2">
         РАССЧИТЫВАЕТСЯ ИНДИВИДУАЛЬНО
         </h2>
       </div>

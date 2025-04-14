@@ -31,7 +31,7 @@ const Advantage = () => {
   ];
 
   return (
-    <section className="mt-18 text-white max-w-[1420px] mx-auto px-4 py-12" >
+    <section className="mt-18 text-white  mx-auto  py-12" >
       <div className="flex flex-col md:flex-row w-full min-h-[510px]">
         <div
           className="relative w-full bg-cover bg-center"
@@ -41,7 +41,7 @@ const Advantage = () => {
           <div className="absolute inset-0 bg-black/50"></div>
 
           {/* Content */}
-          <div className="relative z-10 flex flex-col justify-center h-full px-6 md:pl-20 py-10">
+          <div className="relative max-w-[1420px] z-10 flex flex-col justify-center h-full px-6 md:pl-20 py-10">
             <h1
               data-aos="fade-up"
               className="text-4xl md:text-6xl font-bold leading-tight uppercase"

@@ -67,10 +67,10 @@ const Steps = () => {
   return (
     <section  className="py-16 px-4 md:px-10 max-w-[1420px] bg-white text-[#333] font-sans">
       <div className="text-center mb-16">
-        <p data-aos="fade-down" className="text-sm md:text-2xl text-[#00B2B2] font-medium uppercase tracking-wide">
+        <p data-aos="fade-down" className="text-xl md:text-4xl text-[#00B2B2] font-medium uppercase tracking-wide">
           КАКАЯ ОЧЕРЕДНОСТЬ РЕМОНТА И СКОЛЬКО ПО ВРЕМЕНИ?
         </p>
-        <h2 data-aos="fade-up" className="text-2xl md:text-5xl font-extrabold mt-2">
+        <h2 data-aos="fade-up" className="text-4xl md:text-6xl font-extrabold mt-2">
           КАК БУДЕТ ДЕЛАТЬСЯ ВАШ РЕМОНТ?
         </h2>
       </div>
@@ -92,10 +92,10 @@ const Steps = () => {
             <div className="flex flex-col justify-between flex-1">
               <div>
                 <div className="mb-2">
-                  <span className="text-[#00B2B2] font-bold text-2xl">
+                  <span className="text-[#00B2B2] font-bold text-3xl md:text-2xl">
                     {step.step}
                   </span>
-                  <h3 data-aos="fade-left" className="text-xl md:text-3xl font-extrabold uppercase mt-1">
+                  <h3 data-aos="fade-left" className="text-4xl md:text-3xl font-extrabold uppercase mt-1">
                     {step.title}
                   </h3>
                 </div>

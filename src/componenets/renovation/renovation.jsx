@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../../assets/backround.jpg"; // Import qilingan rasm
+import Img from "../../assets/backround.jpg";
 import {
   Headphones,
   Ruler,
@@ -60,7 +60,10 @@ const steps = [
 
 export default function RenovationSteps() {
   return (
-    <div id="process" className="mt-18 text-white max-w-[1420px] mx-auto px-4 py-12">
+    <div
+      id="process"
+      className="mt-18 text-white max-w-[1420px] mx-auto px-4 py-12"
+    >
       <Box sx={{ display: "flex", flexWrap: "wrap", p: 4 }}>
         {/* Chap tomondagi rasm va matn */}
         <Box
@@ -76,13 +79,24 @@ export default function RenovationSteps() {
             color: "#fff",
           }}
         >
-          <Typography variant="h5" className="text-3xl" color="#00B2B2">
+          <Typography
+            variant="h5"
+            sx={{
+              color: "#00B2B2",
+              fontSize: { xs: "1.25rem", md: "1.5rem" },
+            }}
+          >
             ПОСМОТРИТЕ <br /> ПРОСТУЮ СХЕМУ ИЗ
           </Typography>
           <Typography
             variant="h2"
-            color="#00B2B2"
-            sx={{ fontWeight: "bold", mt: 2 }}
+            sx={{
+              color: "#00B2B2",
+              fontWeight: "bold",
+              mt: 2,
+              fontSize: { xs: "1.75rem", md: "2.75rem" },
+              lineHeight: 1.3,
+            }}
           >
             6 ЭТАПОВ
             <br />
@@ -102,18 +116,35 @@ export default function RenovationSteps() {
                 <CardContent>
                   <Box sx={{ display: "flex", alignItems: "center", mb: 2 }}>
                     {step.icon}
-                    <Typography data-aos="fade-right" variant="h6" sx={{ ml: 2 }}>
+                    <Typography
+                      data-aos="fade-right"
+                      variant="h6"
+                      sx={{
+                        ml: 2,
+                        fontSize: { xs: "1rem", md: "1.25rem" },
+                      }}
+                    >
                       {step.title}
                     </Typography>
                   </Box>
-                  <Typography data-aos="fade-left" variant="body2" sx={{ mb: 1 }}>
+                  <Typography
+                    data-aos="fade-left"
+                    variant="body2"
+                    sx={{
+                      mb: 1,
+                      fontSize: { xs: "0.875rem", md: "1rem" },
+                    }}
+                  >
                     {step.subtitle}
                   </Typography>
                   {step.description && (
                     <Typography
                       variant="caption"
                       display="block"
-                      sx={{ mb: 1 }}
+                      sx={{
+                        mb: 1,
+                        fontSize: { xs: "0.75rem", md: "0.875rem" },
+                      }}
                     >
                       {step.description}
                     </Typography>
@@ -125,6 +156,9 @@ export default function RenovationSteps() {
                       color: "#00695f",
                       textTransform: "none",
                       mt: 1,
+                      fontSize: { xs: "0.75rem", md: "0.875rem" },
+                      py: { xs: 0.5, md: 1 },
+                      px: { xs: 1, md: 2 },
                     }}
                   >
                     {step.button}

@@ -58,7 +58,7 @@ Telefon: ${phone}
   return (
     <div id="form" className="min-h-screen flex flex-col justify-center items-center px-4 py-12 bg-white">
       <ToastContainer position="top-right" autoClose={3000} />
-      
+
       <div className="text-center mb-8">
         <h1 className="font-bold text-5xl mb-2" data-aos="fade-down">ПЕРЕЗВОНИМ ВАМ И ОТВЕТИМ</h1>
         <Typography variant="h4" color="#146B6B" fontWeight="bold" data-aos="fade-up">
@@ -118,10 +118,43 @@ Telefon: ${phone}
       </form>
 
       <div className="text-center mt-10">
-        <Typography variant="h3" fontWeight="bold" data-aos="fade-down">
+        <Typography
+          variant="h3"
+          fontWeight="bold"
+          data-aos="fade-down"
+          sx={{
+            fontSize: {
+              xs: '24px',  // mobil
+              sm: '32px',  // planshet
+              md: '40px',  // katta ekran
+            },
+            textAlign: {
+              xs: 'center',
+              md: 'left',
+            },
+          }}
+        >
           НУЖНО СРОЧНО? ЗВОНИТЕ:
         </Typography>
-        <Typography variant="h4" fontWeight="bold" color="#146B6B" mt={1} data-aos="fade-up">
+
+        <Typography
+          variant="h4"
+          fontWeight="bold"
+          color="#146B6B"
+          mt={1}
+          data-aos="fade-up"
+          sx={{
+            fontSize: {
+              xs: '20px',
+              sm: '28px',
+              md: '36px',
+            },
+            textAlign: {
+              xs: 'center',
+              md: 'left',
+            },
+          }}
+        >
           +99890 097 50 00
         </Typography>
       </div>
