@@ -94,7 +94,7 @@ export default function RenovationSteps() {
               color: "#00B2B2",
               fontWeight: "bold",
               mt: 2,
-              fontSize: { xs: "1.75rem", md: "2.75rem" },
+              fontSize: { xs: "2.75rem", md: "3.75rem" },
               lineHeight: 1.3,
             }}
           >

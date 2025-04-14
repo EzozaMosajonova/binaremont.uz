@@ -130,7 +130,7 @@ Telefon: ${phone}
             },
             textAlign: {
               xs: 'center',
-              md: 'left',
+              md: 'center',
             },
           }}
         >
@@ -151,7 +151,7 @@ Telefon: ${phone}
             },
             textAlign: {
               xs: 'center',
-              md: 'left',
+              md: 'center',
             },
           }}
         >
